@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/styles.css">
+   <title>Treehouse_portfolio</title>
+</head>
+<body>
+
+   
+   
+   <header id="top_here">
+      <a href="../html/index.html">
+      <img style="margin:1.4rem;height:60px;width:10vw" height="40px" src="../img/wave.png" alt="">
+      </a>
+      <img height=320px src="../img/h.png" alt="bio_img" title="Me">
+      <p>Hi I'm Hagop&nbsp;Almadjian</p>
+      <div id="flex-btns">
+         <a target="_blank" href="#about-me">About me</a>
+         <a  target="_blank"  href="#Hobbies">Hobbies</a>
+         <a target="_blank"  href="#career">Career</a>
+         <a target="_blank"  href="../html/Contact.html">Contact and Email</a>
+      </div>
+   </header>
+
+
+
+   <!-- <div id="p_fix">
+      <a href="#top_here">Back to top
+
+         <img src="https://img.icons8.com/ios-glyphs/30/000000/refresh--v1.png"/>
+
+        
+
+
+
+      </a>
+   </div> -->
+
+
+   <section id="about-me">
+      <div class="content">
+         <h2>About Me</h2>
+         <p>
+
+            I am a professional upcoming front end software developer. <br> I love talking to others about their future goals and accomplishments. <br> I really enjoy and find it relaxing to design the client side of the websites and making it functional with some JavaScript.
+
+  
+         </p>
+         <a href="#">Hobbies</a>
+
+         <div class="img_flex">
+            <img src="../img/hagop.png" alt="">
+
+             <div id="back_to_top">
+            <a href="#top_here">Back to top
+
+               <img src="https://img.icons8.com/ios-glyphs/30/000000/refresh--v1.png"/>
+
+
+
+
+            </a>
+         </div>
+      </div>
+   </section>
+
+
+   <section id="Hobbies">
+      <div class="content">
+         <h2>About Me</h2>
+         <p>
+
+            <h2>Some of the activities i like doing  on my free time include:</h2> <br>
+            
+
+            <span class="movies">
+               <a class="example-image-link" href="../img/net.png" data-lightbox="example-1"><img class="example-image" src="../img/net.png" alt="image-1" />
+               </a>
+            </span>
+
+               <span class="code">
+                  <a class="example-image-link" href="https://github.com/Hagop420" target="_blank" >
+               <img title="My github" src="../img/code.png" alt="Coding">
+               </a>
+              </span>
+               <span class="hanging">
+                  <a class="example-image-link" href="https://img.icons8.com/glyph-neue/64/000000/restaurant.png" data-lightbox="example-1">
+                  <img src="https://img.icons8.com/glyph-neue/64/000000/restaurant.png" alt="Dining_out">
+</a>
+
+               </span>
+            
+               
+               
+             
+         <div id="back_to_top_2">
+            <a href="#top_here"><span>Back to top</span>
+
+               <img src="https://img.icons8.com/ios-glyphs/30/000000/refresh--v1.png"/>
+
+              
+
+
+
+            </a>
+         </div>
+            </p>
+         </div>
+               
+            </div>
+            
+            
+            
+            
+            
+            
+         </a>
+      </div>
+   </div>
+   
+     
+   </section>
+
+
+<script src="../js/lightbox-plus-jquery.js"></script>
+
+
+   <section id="career">
+      <div class="content">
+         <h2>Careers and Goals</h2>
+         <p>My future goal is to become a front end software developer at the space industy or any space company to contribute to human space exploration.</p>
+      </div>
+      &nbsp;
+      &nbsp;
+      <div class="content">
+       
+         <p>I would like to work as a Front end developer at <abbr title="National Aeronautics and Space Administration">NASA</abbr> or <abbr title="Jet Propulsion Laboratory">JPL</abbr> and work my way up to a NASA Astronaut and researcher</p>
+      </div>
+   </section>
+
+
+
+
+   <footer>
+      <h3>Contact me through<span class="dots">....</span></h3>
+      <div id="Reach_me">
+         <a target="_blank" href="https://www.instagram.com/hagop_almadjian/" target="_blank">
+         <img src="https://img.icons8.com/glyph-neue/64/000000/instagram-new.png"/>
+         </a>
+
+<a target="_blank" href="https://www.linkedin.com/in/hagop-almadjian-607342240/" target="_blank">
+         <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/>
+
+
+      </a>
+
+
+<a target="_blank" href="https://github.com/Hagop420">
+         <img src="https://img.icons8.com/fluency/48/000000/github.png"/>
+   </a>
+
+
+<a target="_blank" href="./Contact.html">
+         <img title="Contact page" src="https://img.icons8.com/ios-filled/50/000000/phone.png"/>
+   </a>
+
+
+      </div>
+   </footer>
+
+   
+
+    <!-- <div style="margin-bottom:500px"></div> -->
+   
+    <script>
+
+     document.querySelector('#back_to_top  a').addEventListener('mouseover' , (e)=>{
+   const img=document.querySelector('#back_to_top img')
+   img.style.animation='btn-img 1.1s forwards ease-in-out';
+   img.src='https://img.icons8.com/material-sharp/24/000000/update-left-rotation.png'
+
+
+   img.style.backgroundImage='https://img.icons8.com/ios-glyphs/30/000000/refresh--v1.png'
+     })
+    
+
+       
+     document.querySelector('#back_to_top_2').addEventListener('mouseover' , (e)=>{
+     
+
+   const img=document.querySelector('#back_to_top_2 img')
+   img.style.animation='btn-img 1.1s forwards ease-in-out';
+
+     })
+
+       
+     document.querySelector('#back_to_top_2').addEventListener('mouseout' , (e)=>{
+     
+
+   const img=document.querySelector('#back_to_top_2 img')
+   img.style.animation='btn-img 1.1s forwards ease-in-out';
+
+     })
+     document.querySelector('#back_to_top  a').addEventListener('click' , (e)=>{
+      const audioPlayWhenButtonIsClicked = new Audio()
+
+   audioPlayWhenButtonIsClicked.src = 'https://www.fesliyanstudios.com/play-mp3/387'
+ 
+   audioPlayWhenButtonIsClicked.play();
+
+
+     })
+     document.querySelector('#back_to_top_2  a').addEventListener('click' , (e)=>{
+      const audioPlayWhenButtonIsClicked = new Audio()
+
+   audioPlayWhenButtonIsClicked.src = 'https://www.fesliyanstudios.com/play-mp3/387'
+ 
+   audioPlayWhenButtonIsClicked.play()
+
+     })
+     document.querySelector('.content  a').addEventListener('click' , (e)=>{
+      const audioPlayWhenButtonIsClicked = new Audio()
+
+   audioPlayWhenButtonIsClicked.src = 'https://www.fesliyanstudios.com/play-mp3/387'
+ 
+   audioPlayWhenButtonIsClicked.play()
+
+     })
+
+     document.querySelectorAll('#flex-btns ').forEach(lis=>{
+      lis.addEventListener('click' , ()=>{
+         const audioPlayWhenButtonIsClicked = new Audio()
+
+audioPlayWhenButtonIsClicked.src = 'https://www.fesliyanstudios.com/play-mp3/387'
+
+audioPlayWhenButtonIsClicked.play() 
+      })
+     })
+
+
+
+     document.querySelectorAll('#Reach_me img').forEach(img_ft=>{
+      img_ft.addEventListener('mouseover' , (e)=>{
+img_ft.style.transition='.4s all ease-in-out'
+img_ft.style.borderRadius='20px'
+})
+     })
+
+
+    document.querySelector('#Reach_me img:nth-child(1)').addEventListener('mouseover' , ()=>{
+
+
+       const ig= document.querySelector('#Reach_me img:nth-child(1)')
+       ig.style.transtition='1s all ease-in-out'
+ig.src='https://img.icons8.com/fluency/48/000000/instagram-new.png'
+      
+    })
+    document.querySelector('#Reach_me img:nth-child(1)').addEventListener('mouseout' , ()=>{
+
+      const ig= document.querySelector('#Reach_me img:nth-child(1)')
+ig.src='https://img.icons8.com/glyph-neue/64/000000/instagram-new.png'
+      
+    })
+
+
+
+    document.querySelectorAll('#Reach_me img')[1].addEventListener('mouseover' , ()=>{
+
+      const ig= document.querySelectorAll('#Reach_me img')[1]
+
+      ig.className='lnkdn'
+
+ig.src='https://img.icons8.com/color/48/000000/linkedin.png';
+    })
+    document.querySelectorAll('#Reach_me img')[1].addEventListener('mouseout' , ()=>{
+
+      const ig= document.querySelectorAll('#Reach_me img')[1]
+
+
+ig.src='https://img.icons8.com/ios-filled/50/000000/linkedin.png';
+    })
+
+
+
+    document.querySelectorAll('#Reach_me img')[2].addEventListener('mouseover' , ()=>{
+       
+       const ig= document.querySelectorAll('#Reach_me img')[2]
+       
+
+ig.src='https://img.icons8.com/color-glass/48/000000/github.png';
+    })
+    document.querySelectorAll('#Reach_me img')[2].addEventListener('mouseout' , ()=>{
+       
+       const ig= document.querySelectorAll('#Reach_me img')[2]
+       
+
+ig.src='https://img.icons8.com/fluency/48/000000/github.png';
+    })
+   //   lightbox plugin
+
+
+   document.querySelectorAll('#Reach_me img')[3].addEventListener('mouseover' , ()=>{
+       
+       const ig= document.querySelectorAll('#Reach_me img')[3]
+       
+
+ig.src='https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-contact-contact-us-flaticons-lineal-color-flat-icons.png';
+
+
+
+    })
+   document.querySelectorAll('#Reach_me img')[3].addEventListener('mouseout' , ()=>{
+       
+       const ig= document.querySelectorAll('#Reach_me img')[3]
+       
+
+ig.src='https://img.icons8.com/ios-filled/50/000000/phone.png';
+
+
+
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+   !function(a,b){"function"==typeof define&&define.amd?define(["jquery"],b):"object"==typeof exports?module.exports=b(require("jquery")):a.lightbox=b(a.jQuery)}(this,function(a){function b(b){this.album=[],this.currentImageIndex=void 0,this.init(),this.options=a.extend({},this.constructor.defaults),this.option(b)}return b.defaults={albumLabel:"Image %1 of %2",alwaysShowNavOnTouchDevices:!1,fadeDuration:600,fitImagesInViewport:!0,imageFadeDuration:600,positionFromTop:50,resizeDuration:700,showImageNumberLabel:!0,wrapAround:!1,disableScrolling:!1,sanitizeTitle:!1},b.prototype.option=function(b){a.extend(this.options,b)},b.prototype.imageCountLabel=function(a,b){return this.options.albumLabel.replace(/%1/g,a).replace(/%2/g,b)},b.prototype.init=function(){var b=this;a(document).ready(function(){b.enable(),b.build()})},b.prototype.enable=function(){var b=this;a("body").on("click","a[rel^=lightbox], area[rel^=lightbox], a[data-lightbox], area[data-lightbox]",function(c){return b.start(a(c.currentTarget)),!1})},b.prototype.build=function(){if(!(a("#lightbox").length>0)){var b=this;a('<div id="lightboxOverlay" tabindex="-1" class="lightboxOverlay"></div><div id="lightbox" tabindex="-1" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt=""/><div class="lb-nav"><a class="lb-prev" aria-label="Previous image" href="" ></a><a class="lb-next" aria-label="Next image" href="" ></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>').appendTo(a("body")),this.$lightbox=a("#lightbox"),this.$overlay=a("#lightboxOverlay"),this.$outerContainer=this.$lightbox.find(".lb-outerContainer"),this.$container=this.$lightbox.find(".lb-container"),this.$image=this.$lightbox.find(".lb-image"),this.$nav=this.$lightbox.find(".lb-nav"),this.containerPadding={top:parseInt(this.$container.css("padding-top"),10),right:parseInt(this.$container.css("padding-right"),10),bottom:parseInt(this.$container.css("padding-bottom"),10),left:parseInt(this.$container.css("padding-left"),10)},this.imageBorderWidth={top:parseInt(this.$image.css("border-top-width"),10),right:parseInt(this.$image.css("border-right-width"),10),bottom:parseInt(this.$image.css("border-bottom-width"),10),left:parseInt(this.$image.css("border-left-width"),10)},this.$overlay.hide().on("click",function(){return b.end(),!1}),this.$lightbox.hide().on("click",function(c){"lightbox"===a(c.target).attr("id")&&b.end()}),this.$outerContainer.on("click",function(c){return"lightbox"===a(c.target).attr("id")&&b.end(),!1}),this.$lightbox.find(".lb-prev").on("click",function(){return 0===b.currentImageIndex?b.changeImage(b.album.length-1):b.changeImage(b.currentImageIndex-1),!1}),this.$lightbox.find(".lb-next").on("click",function(){return b.currentImageIndex===b.album.length-1?b.changeImage(0):b.changeImage(b.currentImageIndex+1),!1}),this.$nav.on("mousedown",function(a){3===a.which&&(b.$nav.css("pointer-events","none"),b.$lightbox.one("contextmenu",function(){setTimeout(function(){this.$nav.css("pointer-events","auto")}.bind(b),0)}))}),this.$lightbox.find(".lb-loader, .lb-close").on("click",function(){return b.end(),!1})}},b.prototype.start=function(b){function c(a){d.album.push({alt:a.attr("data-alt"),link:a.attr("href"),title:a.attr("data-title")||a.attr("title")})}var d=this,e=a(window);e.on("resize",a.proxy(this.sizeOverlay,this)),this.sizeOverlay(),this.album=[];var f,g=0,h=b.attr("data-lightbox");if(h){f=a(b.prop("tagName")+'[data-lightbox="'+h+'"]');for(var i=0;i<f.length;i=++i)c(a(f[i])),f[i]===b[0]&&(g=i)}else if("lightbox"===b.attr("rel"))c(b);else{f=a(b.prop("tagName")+'[rel="'+b.attr("rel")+'"]');for(var j=0;j<f.length;j=++j)c(a(f[j])),f[j]===b[0]&&(g=j)}var k=e.scrollTop()+this.options.positionFromTop,l=e.scrollLeft();this.$lightbox.css({top:k+"px",left:l+"px"}).fadeIn(this.options.fadeDuration),this.options.disableScrolling&&a("body").addClass("lb-disable-scrolling"),this.changeImage(g)},b.prototype.changeImage=function(b){var c=this,d=this.album[b].link,e=d.split(".").slice(-1)[0],f=this.$lightbox.find(".lb-image");this.disableKeyboardNav(),this.$overlay.fadeIn(this.options.fadeDuration),a(".lb-loader").fadeIn("slow"),this.$lightbox.find(".lb-image, .lb-nav, .lb-prev, .lb-next, .lb-dataContainer, .lb-numbers, .lb-caption").hide(),this.$outerContainer.addClass("animating");var g=new Image;g.onload=function(){var h,i,j,k,l,m;f.attr({alt:c.album[b].alt,src:d}),a(g),f.width(g.width),f.height(g.height),m=a(window).width(),l=a(window).height(),k=m-c.containerPadding.left-c.containerPadding.right-c.imageBorderWidth.left-c.imageBorderWidth.right-20,j=l-c.containerPadding.top-c.containerPadding.bottom-c.imageBorderWidth.top-c.imageBorderWidth.bottom-c.options.positionFromTop-70,"svg"===e&&(f.width(k),f.height(j)),c.options.fitImagesInViewport?(c.options.maxWidth&&c.options.maxWidth<k&&(k=c.options.maxWidth),c.options.maxHeight&&c.options.maxHeight<j&&(j=c.options.maxHeight)):(k=c.options.maxWidth||g.width||k,j=c.options.maxHeight||g.height||j),(g.width>k||g.height>j)&&(g.width/k>g.height/j?(i=k,h=parseInt(g.height/(g.width/i),10),f.width(i),f.height(h)):(h=j,i=parseInt(g.width/(g.height/h),10),f.width(i),f.height(h))),c.sizeContainer(f.width(),f.height())},g.src=this.album[b].link,this.currentImageIndex=b},b.prototype.sizeOverlay=function(){var b=this;setTimeout(function(){b.$overlay.width(a(document).width()).height(a(document).height())},0)},b.prototype.sizeContainer=function(a,b){function c(){d.$lightbox.find(".lb-dataContainer").width(g),d.$lightbox.find(".lb-prevLink").height(h),d.$lightbox.find(".lb-nextLink").height(h),d.$overlay.focus(),d.showImage()}var d=this,e=this.$outerContainer.outerWidth(),f=this.$outerContainer.outerHeight(),g=a+this.containerPadding.left+this.containerPadding.right+this.imageBorderWidth.left+this.imageBorderWidth.right,h=b+this.containerPadding.top+this.containerPadding.bottom+this.imageBorderWidth.top+this.imageBorderWidth.bottom;e!==g||f!==h?this.$outerContainer.animate({width:g,height:h},this.options.resizeDuration,"swing",function(){c()}):c()},b.prototype.showImage=function(){this.$lightbox.find(".lb-loader").stop(!0).hide(),this.$lightbox.find(".lb-image").fadeIn(this.options.imageFadeDuration),this.updateNav(),this.updateDetails(),this.preloadNeighboringImages(),this.enableKeyboardNav()},b.prototype.updateNav=function(){var a=!1;try{document.createEvent("TouchEvent"),a=!!this.options.alwaysShowNavOnTouchDevices}catch(a){}this.$lightbox.find(".lb-nav").show(),this.album.length>1&&(this.options.wrapAround?(a&&this.$lightbox.find(".lb-prev, .lb-next").css("opacity","1"),this.$lightbox.find(".lb-prev, .lb-next").show()):(this.currentImageIndex>0&&(this.$lightbox.find(".lb-prev").show(),a&&this.$lightbox.find(".lb-prev").css("opacity","1")),this.currentImageIndex<this.album.length-1&&(this.$lightbox.find(".lb-next").show(),a&&this.$lightbox.find(".lb-next").css("opacity","1"))))},b.prototype.updateDetails=function(){var a=this;if(void 0!==this.album[this.currentImageIndex].title&&""!==this.album[this.currentImageIndex].title){var b=this.$lightbox.find(".lb-caption");this.options.sanitizeTitle?b.text(this.album[this.currentImageIndex].title):b.html(this.album[this.currentImageIndex].title),b.fadeIn("fast")}if(this.album.length>1&&this.options.showImageNumberLabel){var c=this.imageCountLabel(this.currentImageIndex+1,this.album.length);this.$lightbox.find(".lb-number").text(c).fadeIn("fast")}else this.$lightbox.find(".lb-number").hide();this.$outerContainer.removeClass("animating"),this.$lightbox.find(".lb-dataContainer").fadeIn(this.options.resizeDuration,function(){return a.sizeOverlay()})},b.prototype.preloadNeighboringImages=function(){if(this.album.length>this.currentImageIndex+1){(new Image).src=this.album[this.currentImageIndex+1].link}if(this.currentImageIndex>0){(new Image).src=this.album[this.currentImageIndex-1].link}},b.prototype.enableKeyboardNav=function(){this.$lightbox.on("keyup.keyboard",a.proxy(this.keyboardAction,this)),this.$overlay.on("keyup.keyboard",a.proxy(this.keyboardAction,this))},b.prototype.disableKeyboardNav=function(){this.$lightbox.off(".keyboard"),this.$overlay.off(".keyboard")},b.prototype.keyboardAction=function(a){var b=a.keyCode;27===b?(a.stopPropagation(),this.end()):37===b?0!==this.currentImageIndex?this.changeImage(this.currentImageIndex-1):this.options.wrapAround&&this.album.length>1&&this.changeImage(this.album.length-1):39===b&&(this.currentImageIndex!==this.album.length-1?this.changeImage(this.currentImageIndex+1):this.options.wrapAround&&this.album.length>1&&this.changeImage(0))},b.prototype.end=function(){this.disableKeyboardNav(),a(window).off("resize",this.sizeOverlay),this.$lightbox.fadeOut(this.options.fadeDuration),this.$overlay.fadeOut(this.options.fadeDuration),this.options.disableScrolling&&a("body").removeClass("lb-disable-scrolling")},new b});
+//# sourceMappingURL=lightbox.min.map
+
+
+
+
+
+
+  
+
+
+
+
+</script>
+</body>
+</html>
